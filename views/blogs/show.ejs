@@ -32,7 +32,7 @@
     <div class="container w-75 mb-5">
 
       <div class="w-75 mb-5 m-auto">
-        <h4>Leave a Review</h4>
+        <h4>Leave a Review 😗</h4>
 
         <form action="/blogs/<%= foundBlog._id %>/review" class="needs-validation" method="POST" " novalidate>
                 <!-- <div class=" mb-3">
@@ -45,15 +45,15 @@
         <input type="radio" id="no-rate" class="input-no-rate" name="rating" value="0" checked
           aria-label="No rating." />
         <input type="radio" id="first-rate1" name="rating" value="1" />
-        <label for="first-rate1" title="Terrible">1 star</label>
+        <label for="first-rate1" title="Terrible">&#9733;</label>
         <input type="radio" id="first-rate2" name="rating" value="2" />
-        <label for="first-rate2" title="Not good">2 stars</label>
+        <label for="first-rate2" title="Not good">&#9733;&#9733;</label>
         <input type="radio" id="first-rate3" name="rating" value="3" />
-        <label for="first-rate3" title="Average">3 stars</label>
+        <label for="first-rate3" title="Average">&#9733;&#9733;&#9733;</label>
         <input type="radio" id="first-rate4" name="rating" value="4" />
-        <label for="first-rate4" title="Very good">4 stars</label>
+        <label for="first-rate4" title="Very good">&#9733;&#9733;&#9733;&#9733;</label>
         <input type="radio" id="first-rate5" name="rating" value="5" />
-        <label for="first-rate5" title="Amazing">5 stars</label>
+        <label for="first-rate5" title="Amazing">&#9733;&#9733;&#9733;&#9733;&#9733;</label>
       </fieldset>
 
       <div class="mb-3">
@@ -64,12 +64,12 @@
         </div>
       </div>
 
-      <button type="submit" class="btn btn-success">Submit</button>
+      <button type="submit" class="btn btn-dark">Submit</button>
       </form>
     </div>
 
     <div class="w-75 m-auto">
-      <h3 class="text-center p-3" style="color: rgb(75, 5, 133);">Ratings & Reviews</h3>
+      <h3 class="text-center p-3" style="color: rgb(75, 5, 133);">Reviews</h3>
       <%for(let r of foundBlog.reviews){%>
         <div class="card mb-2">
 
