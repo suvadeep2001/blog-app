@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 const methodOverride = require('method-override');
 const mongoose = require('mongoose');
-
+const PORT = process.env.PORT || 4000;
 const seedDB = require('./seed');
 
 // routes
@@ -78,6 +78,6 @@ app.get('/', (req, res) => {
 app.use(blogRoutes);
 app.use(authRoutes);
 
-app.listen(3000, () => {
-    console.log('server runnig at port 3000');
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
 })
