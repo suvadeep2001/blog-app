@@ -30,6 +30,14 @@ Install dependencies
   npm install
 ```
 
+## create your own .env file and put your environment variables
+
+```bash
+PORT = your_port_number
+MONGO_URI = your_database_url
+SECRET_KEY = your_secret_key
+```
+
 Start the server
 
 ```bash
