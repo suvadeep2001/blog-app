@@ -21,7 +21,7 @@ Authentication with Passport.js
 Clone the project
 
 ```bash
-git clone https://github.com/suvadeep2001/blogOblog.git
+git clone https://github.com/suvadeep2001/bookstore.git
 ```
 
 Install dependencies
