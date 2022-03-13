@@ -44,3 +44,10 @@ Start the server
   npm start
 ```
   
+
+![Screenshot from 2022-03-13 21-54-29](https://user-images.githubusercontent.com/68159874/158069395-0b6cac1d-9fd5-4793-bde8-163d9cb393ce.png)
+![Screenshot from 2022-03-13 21-54-3![Screenshot from 2022-03-13 21-54-40](https://user-images.githubusercontent.com/68159874/158069405-9e9d1451-90c2-46be-b45e-34a443f20e30.png)
+6](https://user-images.githubusercontent.com/68159874/158069402-f992deb4-1209-450a-8337-3a363fccfdb6.png)
+
+
+
