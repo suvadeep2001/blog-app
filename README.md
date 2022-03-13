@@ -1,13 +1,10 @@
-#  Blog Application
+#  Book Store Application
 
-This is a Blog Application with CRUD and Authentication Functionalities.
+This is a Book Store Application with CRUD and Authentication Functionalities.
 
 CRUD : CREATE, READ(SHOW), UPDATE & DELETE
 
 Authentication with Passport.js
-
-
-
 
 ## Tech Stack Used
 
