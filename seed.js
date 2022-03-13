@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const Blog = require('./models/blogs')
 
-
 let blogs = [
     {
         id:1,
