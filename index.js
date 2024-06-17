@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -24,7 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'))
 
 const sessionConfig = {
-    secret: 'weneedsomebettersecret',
+    secret: process.env.SECRET_CONFIG,
     resave: false,
     saveUninitialized: true
 }
@@ -43,7 +44,7 @@ passport.deserializeUser(User.deserializeUser());
 
 //  database connection
 
-mongoose.connect('mongodb+srv://suvadeep:suvadeep123@cluster0.amt60.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', 
+mongoose.connect(process.env.SECRET_DB,
 {
     useNewUrlParser: true,
     useFindAndModify: false,
